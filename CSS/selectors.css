@@ -1,0 +1,17 @@
+/* access via element */
+body{
+    background-color: chocolate;
+}
+
+/* Access via id */
+#id{
+    background-color: darkgreen;
+}
+
+.cats{
+    background-color: red;
+}
+
+ol#techs.stylMe{
+    text-decoration: red;
+}
