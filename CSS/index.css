@@ -1,0 +1,15 @@
+/* 
+Class selector
+ID = # */
+
+#name{
+    color: blueviolet;
+    background-color: chartreuse;
+}
+/* Generic = look for  <element class= "cats" */
+.cats{
+    font-size: 50px;
+}
+
+/* specific = look for <p class="cats"> */
+/* p.cats{} */
