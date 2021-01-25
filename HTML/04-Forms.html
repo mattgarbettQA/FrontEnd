@@ -13,26 +13,32 @@
     <!-- GET = Arguments are appended to the URl of the request -->
     <!-- POST = Information is snet in the body of the request -->
     <form action="" method="GET">
-        <label>Enter your username:</label>
-        <input type="text" name="username" required />
-        <br />
-        <label>Enter your password:</label>
-        <input type="password" name="pwd" />
-        <br />
-        <label>Enter their email:</label>
-        <input type="email" name="email" />
-        <br />
-        <label>Enter your phone:</label>
-        <input type="tel" name="tel" value="123455" pattern="[0-9]{11,13}" />
-        <br />
-        <label>URL of the company that you work at:</label>
-        <input type="url" name="url" />
-        <br />
-        <label>Gender:</label>
-        <input type="radio" id="male" name="gender">Male </input>
-        <input type="radio" id="female" name="gender">female </input>
-        <input type="radio" id="pnts" name="gender">Prefer Not to say </input>
-        <br />
+        <fieldset>
+            <legend>Personal info</legend>
+            <label>Enter your username:</label>
+            <input type="text" name="username" required />
+            <br />
+            <label>Enter your password:</label>
+            <input type="password" name="pwd" />
+            <br />
+            <label>Enter their email:</label>
+            <input type="email" name="email" />
+            <br />
+            <label>Enter your phone:</label>
+            <input type="tel" name="tel" value="1234567890" pattern="[0-9]{11,13}" />
+            <br />
+            <label>URL of the company that you work at:</label>
+            <input type="url" name="url" />
+            <br />
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender">Male </input>
+            <input type="radio" id="female" name="gender">female </input>
+            <input type="radio" id="pnts" name="gender">Prefer Not to say </input>
+            <br />
+        </fieldset>
+        <fieldset>
+
+        </fieldset>
 
         <label>What food do you like</label>
         <input type="checkbox">Chicken</input>
