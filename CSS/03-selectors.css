@@ -1,0 +1,42 @@
+/* Access id */
+
+#myHeading {
+    font-size: 100px;
+}
+
+/* Access class */
+
+.center {
+    text-align: center;
+    color: crimson;
+}
+
+/* Access every element - can get override by a more specific selector */
+
+/* (star){
+    text-align: end;
+    color: blue;
+    font-size: 50px;
+} */
+
+/* Descendant = all descendants will be styled ( a child of)  */
+
+ol *{
+    color: magenta;
+}
+
+/* Child selector = > - any DIRECT child will be styled */
+div > h1 {
+    color: brown; 
+}
+
+/* Adjacent selectors = + - siblings */
+ol + p {
+    color: red; 
+}
+
+/* Preceding siblings - match ALL siblings of a selected element = ~ */
+
+h3 ~ p {
+    color: olive; 
+}

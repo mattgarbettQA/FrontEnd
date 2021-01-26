@@ -5,6 +5,7 @@ ID = # */
 #name{
     color: blueviolet;
     background-color: chartreuse;
+    font-family: cursive;
 }
 /* Generic = look for  <element class= "cats" */
 .cats{
