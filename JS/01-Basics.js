@@ -1,3 +1,4 @@
+'use strict';
 // 3 keywords - by default there is no such thing as 
 // declaring a variable with a specific type
 let a = "a"; // a value that changes
@@ -50,3 +51,44 @@ console.log(string); // 5 + 3 = 8
 
 console.log(`quote:"" single: '' `); // nicer way :) 
 console.log(" quote:\"\" single: '' "); // escaping characters
+
+
+// Datatypes = dynamic, runtime compiler doesn't know type until the program is running
+let camelCase = "";
+camelCase = 2;
+
+console.log(camelCase);
+
+// primitive types = immutable, fixed length, quick to look up 
+// object = collection of properties, variabels are references in memory, mutable
+
+// let age; // undefined
+// let userId = null; // null  - explicit key work which the runtime it's "empty"
+
+// explanation of VAR and why it's bad
+
+// var x = 12; 
+// var y; 
+
+// console.log(`${x}, ${y}`); 
+// // 12, undefined
+// var y = 5; 
+
+
+// let x = 2; 
+// console.log(`${x}, ${y}`); 
+// let y = 5; 
+
+// error, not used properly 
+// 2, undefined
+
+
+function deposit(increment) {
+    let balance = 100000;
+    console.log(balance);
+    return balance + increment;
+}
+
+
+console.log(deposit(10));
+// console.log(balance); // no!
